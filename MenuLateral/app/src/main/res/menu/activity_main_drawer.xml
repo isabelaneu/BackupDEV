@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Principal" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Serviços" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contato" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Sobre" />
+    </group>
+</menu>

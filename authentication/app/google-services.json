@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "609886854143",
+    "project_id": "autentificacao-55362",
+    "storage_bucket": "autentificacao-55362.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609886854143:android:6210009a126b51ae33e5ca",
+        "android_client_info": {
+          "package_name": "com.aula.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609886854143-bsm5ulkr6d2v1v9i1bsbnbrbhfm6j6k1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aula.authentication",
+            "certificate_hash": "666174485580773d250be90e2d78404abd03cc8d"
+          }
+        },
+        {
+          "client_id": "609886854143-02mpiurm42fk5122uh8nlgbcqffspktf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPLUyfdTcaezEhmCET9MKQEPt18IpHJAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609886854143-02mpiurm42fk5122uh8nlgbcqffspktf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_alimentacao"
+        android:icon="@drawable/apple"
+        android:title="Alimentação" />
+
+    <item
+        android:id="@+id/navigation_exercicios"
+        android:icon="@drawable/dumbbell"
+        android:title="Exercícios" />
+    <item
+        android:id="@+id/navigation_agua"
+        android:icon="@drawable/water"
+        android:title="Água" />
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/account"
+        android:title="Perfil" />
+
+</menu>

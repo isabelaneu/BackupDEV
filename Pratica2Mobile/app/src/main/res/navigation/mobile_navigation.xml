@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_alimentacao">
+
+    <fragment
+        android:id="@+id/navigation_alimentacao"
+        android:name="com.aula.pratica2mobile.ui.home.HomeFragment"
+        android:label="Sua Alimentação"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_exercicios"
+        android:name="com.aula.pratica2mobile.ui.dashboard.DashboardFragment"
+        android:label="Seus Exercícios"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_agua"
+        android:name="com.aula.pratica2mobile.ui.notifications.NotificationsFragment"
+        android:label="Sua Água"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.aula.pratica2mobile.Perfil"
+        android:label="Seu Perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+</navigation>
